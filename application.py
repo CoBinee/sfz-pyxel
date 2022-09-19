@@ -20,7 +20,7 @@ class Application:
     def __init__(self):
 
         # Pyxel の初期化
-        pyxel.init(128, 72, caption = "SFZ", scale = 4, fps = 60)
+        pyxel.init(128, 72, title = "SFZ", display_scale = 4, fps = 60)
 
         # システムの初期化
         self.__draw = Draw.get_instance()

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b96f93762790444fbf5d2f291c0ca174bc21e6a067c090ea13d15cce4763c28a"
+            "sha256": "e871c39ee2966abbc5458c16e092bd59758beb62816f7ec6ca5de7ba6f81f9c4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,8 +17,8 @@
     },
     "default": {
         "pyxel": {
-            "path": "./../../pyxel-master",
-            "version": "==1.4.3"
+            "path": "./../../pyxel",
+            "version": "==1.8.5"
         }
     },
     "develop": {}

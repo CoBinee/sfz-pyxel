@@ -138,7 +138,7 @@ class Game(Scene):
         self.__draw.append(10000, self.draw_start)
 
         # ミュージックの監視
-        if pyxel.play_pos(0) < 0:
+        if not pyxel.play_pos(0):
 
             # 処理の更新
             self.set_process(self.play)
@@ -171,7 +171,7 @@ class Game(Scene):
             self.set_process(self.over)
 
         # ミュージックの再生
-        if pyxel.play_pos(0) < 0:
+        if not pyxel.play_pos(0):
             pyxel.playm(Const.MUSIC_GAME, loop = True)
 
     # ゲームオーバーになる
